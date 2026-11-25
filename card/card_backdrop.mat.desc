@@ -1,0 +1,12 @@
+{
+    "__type" : "material_desc",
+    "__version" : 2,
+    "__parent" : "res://base_material.desc",
+    "defines" : [
+        "LIGHTS_ENABLED"
+    ],
+    "queue" : "opaque",
+    "uniforms" : {
+        "albedo" : [0.15, 0.75, 0.2, 1.0]
+    }
+}
