@@ -1,0 +1,13 @@
+{
+    "__type" : "material_desc",
+    "__version" : 2,
+    "__parent" : "res://base_material.desc",
+    "defines" : [
+        "LIGHTS_ENABLED",
+        "USE_TXM_AS_DIFFUSE"
+    ],
+    "samplers" : [
+        "res://samples/card/card_back.png.txm.desc"
+    ],
+    "queue" : "opaque"
+}

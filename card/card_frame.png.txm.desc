@@ -1,0 +1,15 @@
+{
+    "__type" : "texture_2d_desc",
+    "__version" : 1,
+    "__parent" : "res://base_texture.desc",
+    "name" : "card_frame.png",
+    "data" : "res://samples/card/card_frame.png",
+    "header" : {
+        "wrap" : "clamp_to_edge",
+        "mag" : "linear",
+        "min" : "linear",
+        "data" : {
+            "mip_levels" : 1
+        }
+    }
+}

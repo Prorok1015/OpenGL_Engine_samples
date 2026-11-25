@@ -1,0 +1,89 @@
+{
+    "__type" : "prefab_desc",
+    "__version" : 5,
+    "__id" : "3a10bd373e8ce8be",
+    "children" : [
+        {
+            "__id" : "9bf5afa9de53fb7a",
+            "name" : "frame_front",
+            "transform" : {
+                "position" : [0.0, 0.004, 0.0],
+                "scale" : [0.63, 1.0, 0.88]
+            },
+            "components" : {
+                "mesh" : {
+                    "__type" : "mesh_node_desc",
+                    "__version" : 1,
+                    "geometry" : "res://shapes/plane.geom.desc",
+                    "vx_begin" : 0,
+                    "vx_end" : 4,
+                    "ind_begin" : 0,
+                    "ind_end" : 6,
+                    "material" : "res://samples/card/card_frame.mat.desc"
+                }
+            }
+        },
+        {
+            "__id" : "83c60194523f65d3",
+            "name" : "face",
+            "transform" : {
+                "position" : [0.0, 0.002, 0.0],
+                "scale" : [0.63, 1.0, 0.88]
+            },
+            "components" : {
+                "mesh" : {
+                    "__type" : "mesh_node_desc",
+                    "__version" : 1,
+                    "geometry" : "res://shapes/plane.geom.desc",
+                    "vx_begin" : 0,
+                    "vx_end" : 4,
+                    "ind_begin" : 0,
+                    "ind_end" : 6,
+                    "material" : "res://samples/card/card_face.mat.desc"
+                }
+            }
+        },
+        {
+            "__id" : "14ac3dd94067a25c",
+            "name" : "back",
+            "transform" : {
+                "position" : [0.0, -0.002, 0.0],
+                "rotation" : [0.0, 0.0, 180.0],
+                "scale" : [0.63, 1.0, 0.88]
+            },
+            "components" : {
+                "mesh" : {
+                    "__type" : "mesh_node_desc",
+                    "__version" : 1,
+                    "geometry" : "res://shapes/plane.geom.desc",
+                    "vx_begin" : 0,
+                    "vx_end" : 4,
+                    "ind_begin" : 0,
+                    "ind_end" : 6,
+                    "material" : "res://samples/card/card_back.mat.desc"
+                }
+            }
+        },
+        {
+            "__id" : "241b57a8b1118298",
+            "name" : "frame_back",
+            "transform" : {
+                "position" : [0.0, -0.004, 0.0],
+                "rotation" : [0.0, 0.0, 180.0],
+                "scale" : [0.63, 1.0, 0.88]
+            },
+            "components" : {
+                "mesh" : {
+                    "__type" : "mesh_node_desc",
+                    "__version" : 1,
+                    "geometry" : "res://shapes/plane.geom.desc",
+                    "vx_begin" : 0,
+                    "vx_end" : 4,
+                    "ind_begin" : 0,
+                    "ind_end" : 6,
+                    "material" : "res://samples/card/card_frame.mat.desc"
+                }
+            }
+        }
+    ]
+}
